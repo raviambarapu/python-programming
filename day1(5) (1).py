@@ -1,0 +1,10 @@
+price=eval(input("enter the regular price"))
+fresh=int(input("enter the fresh bread"))
+old=int(input("enter the old bread"))
+fresh_amt=fresh*price
+old_amt=old*(price*(40/100))
+total=fresh_amt+old_amt
+print("regular prie=%.2f"%price)
+print("amount for fresh bread=%.2f"%fresh_amt)
+print("amount for old breads=%.2f"%old_amt)
+print("total price=%.2f"%total)
